@@ -1,13 +1,19 @@
+// Library untuk input
 #include <iostream>
-#include <algorithm>
+
+// untuk memudahkan agar tidak perlu std::
 using namespace std;
 
-
 int main() {
-    int c;
-    cin >> c;
-    if(c==50){
-        cout<<"SETENGAH";
+    // Deklarasi variabel
+    int n;
+
+    // Masukan nilai ke variabel n
+    cin >> n;
+
+    // Jika n sama dengan 50 maka
+    if (n == 50) {
+        // output "SETENGAH"
+        cout << "SETENGAH" << endl;
     }
-    return 0;
-}
+}03
